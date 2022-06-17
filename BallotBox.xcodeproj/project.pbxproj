@@ -17,6 +17,9 @@
 		9FC59395285B7DED000CC785 /* BallotBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59394285B7DED000CC785 /* BallotBoxTests.swift */; };
 		9FC593A0285B7DED000CC785 /* BallotBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5939F285B7DED000CC785 /* BallotBoxUITests.swift */; };
 		9FC593C4285C9204000CC785 /* viewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC593C3285C9204000CC785 /* viewTwo.swift */; };
+		A0D187F9285CD9FD009223B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D187F6285CD9FD009223B5 /* Assets.xcassets */; };
+		A0D187FA285CD9FD009223B5 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D187F7285CD9FD009223B5 /* appstore.png */; };
+		A0D187FB285CD9FD009223B5 /* playstore.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D187F8285CD9FD009223B5 /* playstore.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		9FC5939F285B7DED000CC785 /* BallotBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallotBoxUITests.swift; sourceTree = "<group>"; };
 		9FC593A1285B7DED000CC785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC593C3285C9204000CC785 /* viewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewTwo.swift; sourceTree = "<group>"; };
+		A0D187F6285CD9FD009223B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0D187F7285CD9FD009223B5 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
+		A0D187F8285CD9FD009223B5 /* playstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playstore.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				9FC59386285B7DEB000CC785 /* Assets.xcassets */,
 				9FC59388285B7DEB000CC785 /* LaunchScreen.storyboard */,
 				9FC5938B285B7DEC000CC785 /* Info.plist */,
+				A0D187F5285CD9FD009223B5 /* AppIcons */,
 				9FC59383285B7DB1000CC785 /* BallotBox.xcdatamodeld */,
 			);
 			path = BallotBox;
@@ -132,6 +139,17 @@
 				9FC593A1285B7DED000CC785 /* Info.plist */,
 			);
 			path = BallotBoxUITests;
+			sourceTree = "<group>";
+		};
+		A0D187F5285CD9FD009223B5 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				A0D187F6285CD9FD009223B5 /* Assets.xcassets */,
+				A0D187F7285CD9FD009223B5 /* appstore.png */,
+				A0D187F8285CD9FD009223B5 /* playstore.png */,
+			);
+			name = AppIcons;
+			path = ../../../Desktop/AppIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D187FA285CD9FD009223B5 /* appstore.png in Resources */,
 				9FC5938A285B7DEB000CC785 /* LaunchScreen.storyboard in Resources */,
 				9FC59387285B7DEB000CC785 /* Assets.xcassets in Resources */,
+				A0D187F9285CD9FD009223B5 /* Assets.xcassets in Resources */,
 				9FC59382285B7DB1000CC785 /* Main.storyboard in Resources */,
+				A0D187FB285CD9FD009223B5 /* playstore.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
