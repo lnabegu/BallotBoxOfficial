@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="kOY-Tt-w9t" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cth-TL-uae">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="rectangle.portrait.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xXa-FS-Jv5">
@@ -65,7 +65,7 @@
             <objects>
                 <viewController id="bxE-Xu-Cfx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K1Y-lz-J8Z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="rectangle.portrait.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ysu-FI-OBJ">
@@ -197,7 +197,7 @@
                                     <color key="titleColor" red="0.1764705882" green="0.1764705882" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2Dn-72-cWQ" kind="popoverPresentation" popoverAnchorView="PiA-BE-X2X" id="O6x-Lq-J6A">
+                                    <segue destination="u4A-05-KCs" kind="popoverPresentation" popoverAnchorView="PiA-BE-X2X" id="xUE-MH-6Lu">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -242,6 +242,11 @@
                                 <state key="normal" title="Pay Suspension">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="bxE-Xu-Cfx" kind="popoverPresentation" popoverAnchorView="zuX-5z-KRJ" id="Bhv-se-DJl">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRJ-XT-53I">
                                 <rect key="frame" x="65" y="406" width="289" height="152"/>
@@ -251,6 +256,11 @@
                                 <state key="normal" title="Property Damage">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kOY-Tt-w9t" kind="popoverPresentation" popoverAnchorView="qRJ-XT-53I" id="D5V-Zl-2wl">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Measures" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETV-L1-Gs2">
                                 <rect key="frame" x="65" y="50" width="284" height="70"/>
@@ -821,14 +831,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="jhV-Nj-PNU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5t-ky-3xl">
-                                <rect key="frame" x="35" y="575" width="354" height="551"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">On November 8th of 2022 we have a midterm election. Though this is not a presidential election, it is just as if not more important than the presidential one. Many voters do not vote in midterms as they do not see a point in voting. However during this general election, many new officials are elected from Governor’s to Senators. Go back to explore what you will be voting for!</string>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="0.0"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FgQ-kZ-uej">
                                 <rect key="frame" x="51" y="167" width="323" height="515"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -849,9 +851,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MAp-Ya-FK6"/>
-        <segue reference="O6x-Lq-J6A"/>
-        <segue reference="4yi-Ok-hV1"/>
+        <segue reference="wmY-F0-7Yo"/>
+        <segue reference="xUE-MH-6Lu"/>
         <segue reference="4M2-gH-k34"/>
         <segue reference="rrl-fd-AYv"/>
     </inferredMetricsTieBreakers>
